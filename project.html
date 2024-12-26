@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OJT 2024</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .header {
+    background: #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 15px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #007BFF;
+  }
+  
+  .grid-section {
+    padding: 40px 20px;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  
+  .card {
+    background: #fff;
+    cursor: pointer;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card-content {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .card-content h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .card-content p {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  @media (max-width: 1024px) {
+    .grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .grid {
+      grid-template-columns: 1fr;
+    }
+  }
+.grid a{
+  text-decoration: none;
+}
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="logo">OJT 2081</div>
+      <nav class="nav">
+        <ul class="nav-links">
+          <li><a href="#">Chat AI</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contacts</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="grid-section">
+    <div class="grid">
+        <a href="Project/dinanath.html">
+          <div class="card">
+            <img src="BG.png" alt="Card 1" class="card-image">
+            <div class="card-content">
+              <h3>Dinanath and Krishna</h3>
+              <p>Traffic Light and Matrix Based IOT Project</p>
+            </div>
+          </div>
+        </a>
+      <a href="Project/Nisil.html">
+        <div class="card">
+          <img src="BG.png" alt="Card 2" class="card-image">
+          <div class="card-content">
+            <h3>Nisil Gaire</h3>
+            <p>Radar IOT based Project</p>
+          </div>
+        </div>
+      </a>
+      <a href="Project/ritesh.html">
+        <div class="card">
+          <img src="BG.png" alt="Card 3" class="card-image">
+          <div class="card-content">
+            <h3>Ritesh Poudel</h3>
+            <p>Automatic Smart Dustbin Using Audrino</p>
+          </div>
+        </div>
+      </a>
+      <a href="Project/Sapana.html">
+        <div class="card">
+          <img src="BG.png" alt="Card 4" class="card-image">
+          <div class="card-content">
+            <h3>Suman Gurung and Sanjok Kandel</h3>
+            <p>Wet and Dry Detection Dustbin</p>
+          </div>
+        </div>
+      </a>
+      <a href="Project/shariph.html">
+        <div class="card">
+          <img src="BG.png" alt="Card 5" class="card-image">
+          <div class="card-content">
+            <h3>Shariph Thapa</h3>
+            <p>GEMINI AI Powered Chat AI</p>
+          </div>
+        </div>
+      </a>
+      <a href="Project/suman.html">
+        <div class="card">
+          <img src="BG.png" alt="Card 6" class="card-image">
+          <div class="card-content">
+            <h3>Suman and Sanjok Kandel</h3>
+            <p>Default</p>
+          </div>
+        </div>
+      </a>
+      <a href="Project/suraj.html">
+        <div class="card">
+          <img src="BG.png" alt="Card 7" class="card-image">
+          <div class="card-content">
+            <h3>Suraj and Aniket</h3>
+            <p>Health Monitoring System Using Audrino UNO</p>
+          </div>
+        </div>
+      </a>
+      <a href="Project/yupithans.html">
+        <div class="card">
+          <img src="BG.png" alt="Card 8" class="card-image">
+          <div class="card-content">
+            <h3>Team Thans</h3>
+            <p>Wifi Jammer Hacking tools & IOT Project</p>
+          </div>
+        </div>
+      </a>
+    </div>
+  </section>
+  <footer>
+  </footer>
+</body>
+</html>
